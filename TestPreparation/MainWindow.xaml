@@ -1,0 +1,20 @@
+﻿<Window x:Class="TestPreparation.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TestPreparation"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Name="addCustomer"
+            Content="Add Customer" HorizontalAlignment="Left" Margin="155,54,0,0" VerticalAlignment="Top" Height="70" Width="175" Click="addCustomer_Click"/>
+        <Button Name="showCustomer"
+            Content="Show Customer" HorizontalAlignment="Left" Margin="155,144,0,0" VerticalAlignment="Top" Height="70" Width="175" Click="showCustomer_Click"/>
+        <Button Name="SearchCustomer"
+            Content="Search Customer" HorizontalAlignment="Left" Margin="160,239,0,0" VerticalAlignment="Top" Height="85" Width="170" Click="SearchCustomer_Click"/>
+        <Button Name="updateCustomer"
+            Content="Update customer" HorizontalAlignment="Left" Margin="395,59,0,0" VerticalAlignment="Top" Height="95" Width="170" Click="updateCustomer_Click"/>
+
+    </Grid>
+</Window>
